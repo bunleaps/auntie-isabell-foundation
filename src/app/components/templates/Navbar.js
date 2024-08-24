@@ -12,24 +12,27 @@ const Navbar = () => {
   const navLinks = [
     { link_name: "Home", link_path: "/" },
     { link_name: "About Us", link_path: "/about" },
-    { link_name: "Programs", link_path: "/programs" },
-    { link_name: "How to Qualify", link_path: "/how-to-qualify" },
+    { link_name: "Loan", link_path: "/loan" },
+    { link_name: "Grant", link_path: "/grant" },
     { link_name: "Contact", link_path: "/contact" },
   ];
 
   return (
-    <nav className="p-4 bg-white shadow-md">
+    <nav className="p-4 bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center">
-            <Image
+            {/* <Image
               src="/logos/black2.png"
               alt="Logo"
               width={200}
               height={139}
               className="mr-3 w-32 h-20 md:w-40 md:h-28"
-            />
+            /> */}
+            <span className="text-black cursor-pointer px-4 text-lg font-medium">
+              Auntie Isabell Foundation
+            </span>
           </div>
         </Link>
 

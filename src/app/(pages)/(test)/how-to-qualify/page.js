@@ -1,4 +1,5 @@
 import Hero from "@/app/components/Hero";
+import ProgramInfo from "@/app/components/ProgramsInfo";
 
 export const metadata = {
   title: "How to Qualify — Auntie Isabelle Foundation",
@@ -12,10 +13,6 @@ function Criteria() {
       info: "Applicants must identify as part of an underrepresented group. This includes, but is not limited to, individuals from marginalized racial or ethnic backgrounds, low-income individuals, single parents, and others facing systemic barriers.",
     },
     {
-      title: "Financial Need",
-      info: "Applicants must demonstrate a clear financial need. This can be done by providing documentation of income, expenses, and any other relevant financial information.",
-    },
-    {
       title: "Purpose",
       info: "Applicants must outline a clear purpose for the loan or grant. This can include educational expenses, business start-up costs, emergency expenses, or other significant needs.",
     },
@@ -26,7 +23,7 @@ function Criteria() {
   ];
 
   return (
-    <section className="w-full bg-slate-200 py-14 md:py-36">
+    <section className="w-full bg-slate-200 px-4 py-14 md:py-36">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="md:w-1/3 md:pr-8">
@@ -90,8 +87,8 @@ function AppProcess() {
   ];
 
   return (
-    <section className="w-full bg-slate-100 py-14 md:py-36">
-      <div className="container mx-auto p-6">
+    <section className="w-full bg-slate-100 px-4 py-14 md:py-36">
+      <div className="container mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-bold">Application Process</h1>
         <p className="italic font-medium py-4 max-w-4xl">
           Our goal is to make this process as transparent and supportive as
@@ -113,6 +110,71 @@ function AppProcess() {
   );
 }
 
+function ProgramsInfo() {
+  const data = [
+    {
+      title: "LOAN",
+      paragraph:
+        "Auntie Isabell Foundation offers low-interest loans to support underrepresented individuals in San Luis Obispo County. These loans are designed to help with educational expenses, business ventures, and other needs, providing flexible terms and tailored assistance to ensure success.",
+      accordions: [
+        {
+          title: "Loan Details",
+          content:
+            "Our loans provide flexible terms and tailored assistance to meet diverse needs.",
+        },
+        {
+          title: "Eligibility",
+          content:
+            "Must be a resident of San Luis Obispo County and identify as part of an underrepresented group. Applicants should demonstrate financial need and a commitment to personal or professional development.",
+        },
+        {
+          title: "Application Process",
+          content:
+            "Fill out a preliminary inquiry form, submit required documents, and undergo a review process, which may include an interview.",
+        },
+        {
+          title: "Additional Support",
+          content:
+            "Recipients receive access to online webinars on business planning, financial management, and more, along with a dedicated check-in section for progress updates.",
+        },
+      ],
+    },
+    // {
+    //   title: "GRANT",
+    //   paragraph:
+    //     "The Auntie Isabell Foundation offers grants to support underrepresented individuals and organizations in San Luis Obispo County. These grants are aimed at fostering growth, development, and empowerment within the community, funding educational initiatives, community projects, and other activities.",
+    //   accordions: [
+    //     {
+    //       title: "Grant Details",
+    //       content:
+    //         "Our grants support educational initiatives, community projects, and more to foster growth and development.",
+    //     },
+    //     {
+    //       title: "Eligibility",
+    //       content:
+    //         "Must be a resident of San Luis Obispo County and identify as part of an underrepresented group. Applicants should demonstrate a clear purpose for the grant.",
+    //     },
+    //     {
+    //       title: "Application Process",
+    //       content:
+    //         "Submit an application outlining the purpose and impact of the grant, along with required documentation.",
+    //     },
+    //     {
+    //       title: "Additional Support",
+    //       content:
+    //         "Grant recipients gain access to online webinars covering business essentials and a check-in section for progress updates.",
+    //     },
+    //   ],
+    // },
+  ];
+
+  return (
+    <div className="container mx-auto px-4 py-4 md:py-12">
+      <ProgramInfo items={data} />
+    </div>
+  );
+}
+
 export default function HowToQualify() {
   return (
     <div>
@@ -121,6 +183,7 @@ export default function HowToQualify() {
         paragraph="At the Auntie Isabell Foundation, we are dedicated to providing financial support to underrepresented individuals in San Luis Obispo County. Our programs are designed to help those who face systemic challenges and need financial assistance to achieve their personal and professional goals. Here’s how you can qualify for our loans and grants."
         backgroundImage="/bg/city01.png"
       />
+      <ProgramsInfo />
       <Criteria />
       <AppProcess />
     </div>

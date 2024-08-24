@@ -36,7 +36,7 @@ const Footer = () => {
 
         {/* Navigation and Contact Section */}
         <div className="flex flex-col md:flex-row md:space-x-8">
-          <div className="flex gap-8 md:gap-14">
+          <div className="flex gap-20 md:gap-14">
             {/* Navigation Links */}
             <ul className="flex flex-col list-none m-0 p-0 mb-4 md:mb-0">
               <li className="font-semibold mb-2">Navigation</li>
@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
           {/* Contact Email */}
-          <div>
+          <div className="text-center">
             <h3 className="font-semibold mb-2">Contact Us</h3>
             <p className="text-black">
               <a
