@@ -17,14 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <GoogleAnalytics />
       <body className={work_sans.className}>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-KCZVGL5K"
-            height="0"
-            width="0"
-            className="hidden"
-          ></iframe>
-        </noscript>
         <Navbar />
         {children}
         <Footer />
