@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
             src="https://www.googletagmanager.com/ns.html?id=GTM-KCZVGL5K"
             height="0"
             width="0"
-            style="display:none;visibility:hidden"
+            className="hidden"
           ></iframe>
         </noscript>
         <Navbar />
