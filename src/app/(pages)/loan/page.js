@@ -93,8 +93,20 @@ function AppProcess() {
     },
     {
       title: "7. Loan Award or Next Steps",
-      paragraph:
-        "Based on the review, you will either be awarded the loan or receive advisement on how to improve your application and reapply. You may also be referred to KIVA for additional funding options.",
+      paragraph: (
+        <p>
+          Based on the review, you will either be awarded the loan or receive
+          advisement on how to improve your application and reapply. You may
+          also be referred to KIVA for additional funding options.
+          <br />
+          <p className="mt-2">
+            <span className="text-emerald-500 font-semibold">Award: </span>{" "}
+            Low-interest loans range from{" "}
+            <span className="font-semibold">$2,000</span> to{" "}
+            <span className="font-semibold">$15,000</span>.
+          </p>
+        </p>
+      ),
     },
     {
       title: "Apply for a Loan?",

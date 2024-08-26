@@ -28,7 +28,7 @@ function Hero() {
               alt="Logo"
               width={500} // Adjust as needed
               height={500} // Adjust as needed
-              className="mr-3 w-1/2 h-1/2 md:w-1/3"
+              className="mr-3 w-1/2 h-1/2 md:w-1/4 lg:w-1/3"
             />
           </div>
 

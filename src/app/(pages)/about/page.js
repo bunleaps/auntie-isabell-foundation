@@ -30,8 +30,8 @@ export default function About() {
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-lg text-gray-700">
             At The Auntie Isabell Foundation, we are dedicated to empowering
-            underrepresented individuals in San Luis Obispo County by starting
-            in Paso Robles. By offering financial assistance through loans and
+            underrepresented individuals in San Luis Obispo County, starting in
+            Paso Robles. By offering financial assistance through loans and
             grants, we aim to break down barriers and create opportunities for
             personal and professional success. We believe in fostering a
             supportive community where everyone has the chance to thrive.

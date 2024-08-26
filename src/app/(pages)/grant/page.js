@@ -87,8 +87,21 @@ function AppProcess() {
     },
     {
       title: "5. Application Status & Award",
-      paragraph:
-        "You will be notified of your application status. If awarded, a payment schedule will be established along with a quarterly check-in schedule. Please note that if mandatory quarterly check-ins are not met, the grant will be terminated.",
+      paragraph: (
+        <p>
+          You will be notified of your application status. If awarded, a payment
+          schedule will be established along with a quarterly check-in schedule.
+          Please note that if mandatory quarterly check-ins are not met, the
+          grant will be terminated.
+          <br />
+          <p className="mt-2">
+            <span className="text-emerald-500 font-semibold">Award: </span>{" "}
+            Grant amounts range from <span className="font-semibold">$150</span>{" "}
+            to <span className="font-semibold">$500</span> and can be given
+            either as a one-time award or as monthly payments for one year.
+          </p>
+        </p>
+      ),
     },
     {
       title: "Apply for a Grant?",
