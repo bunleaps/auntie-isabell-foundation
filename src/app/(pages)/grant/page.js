@@ -1,6 +1,6 @@
-import Button from "@/app/components/Button";
-import Hero from "@/app/components/Hero";
-import ProgramInfo from "@/app/components/ProgramsInfo";
+import Button from "@/components/Button";
+import Hero from "@/components/Hero";
+import ProgramInfo from "@/components/ProgramsInfo";
 import { FiExternalLink } from "react-icons/fi";
 
 export const metadata = {
@@ -138,71 +138,6 @@ function AppProcess() {
   );
 }
 
-function ProgramsInfo() {
-  const data = [
-    {
-      title: "LOAN",
-      paragraph:
-        "Auntie Isabell Foundation offers low-interest loans to support underrepresented individuals in Paso Robles, San Luis Obispo County. These loans are designed to help with educational expenses, business ventures, and other needs, providing flexible terms and tailored assistance to ensure success.",
-      accordions: [
-        {
-          title: "Loan Details",
-          content:
-            "Our loans provide flexible terms and tailored assistance to meet diverse needs.",
-        },
-        {
-          title: "Eligibility",
-          content:
-            "Must be a resident of San Luis Obispo County and identify as part of an underrepresented group. Applicants should demonstrate financial need and a commitment to personal or professional development.",
-        },
-        {
-          title: "Application Process",
-          content:
-            "Fill out a preliminary inquiry form, submit required documents, and undergo a review process, which may include an interview.",
-        },
-        {
-          title: "Additional Support",
-          content:
-            "Recipients receive access to online webinars on business planning, financial management, and more, along with a dedicated check-in section for progress updates.",
-        },
-      ],
-    },
-    // {
-    //   title: "GRANT",
-    //   paragraph:
-    //     "The Auntie Isabell Foundation offers grants to support underrepresented individuals and organizations in San Luis Obispo County. These grants are aimed at fostering growth, development, and empowerment within the community, funding educational initiatives, community projects, and other activities.",
-    //   accordions: [
-    //     {
-    //       title: "Grant Details",
-    //       content:
-    //         "Our grants support educational initiatives, community projects, and more to foster growth and development.",
-    //     },
-    //     {
-    //       title: "Eligibility",
-    //       content:
-    //         "Must be a resident of San Luis Obispo County and identify as part of an underrepresented group. Applicants should demonstrate a clear purpose for the grant.",
-    //     },
-    //     {
-    //       title: "Application Process",
-    //       content:
-    //         "Submit an application outlining the purpose and impact of the grant, along with required documentation.",
-    //     },
-    //     {
-    //       title: "Additional Support",
-    //       content:
-    //         "Grant recipients gain access to online webinars covering business essentials and a check-in section for progress updates.",
-    //     },
-    //   ],
-    // },
-  ];
-
-  return (
-    <div className="container mx-auto px-4 py-4 md:py-12">
-      <ProgramInfo items={data} />
-    </div>
-  );
-}
-
 export default function Loan() {
   return (
     <div>
@@ -211,7 +146,6 @@ export default function Loan() {
         paragraph="The Auntie Isabell Foundation is designed to support underrepresented persons within San Luis Obispo County. The Auntie Isabell Foundation believes that all you need is a way to take the next step with support. The Auntie Isabell Foundation Grant enables the recipient to take the chance to move forward."
         backgroundImage="/bg/city01.png"
       />
-      {/* <ProgramsInfo /> */}
       <Criteria />
       <AppProcess />
     </div>

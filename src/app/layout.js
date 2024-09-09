@@ -1,9 +1,9 @@
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "./components/templates/Navbar";
-import Footer from "./components/templates/Footer";
-import GoogleAnalytics from "./components/GoogleAnalytics";
+import Navbar from "../components/templates/Navbar";
+import Footer from "../components/templates/Footer";
+import GoogleAnalytics from "../components/GoogleAnalytics";
 
 const work_sans = Work_Sans({ subsets: ["latin"] });
 

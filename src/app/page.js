@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "./components/Button";
+import Button from "../components/Button";
 import { FaArrowDown } from "react-icons/fa6";
 
 function Hero() {

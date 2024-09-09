@@ -1,5 +1,5 @@
-import Hero from "@/app/components/Hero";
-import ProgramInfo from "@/app/components/ProgramsInfo";
+import Hero from "@/components/Hero";
+import ProgramInfo from "@/components/ProgramsInfo";
 
 export const metadata = {
   title: "Programs — Auntie Isabelle Foundation",
