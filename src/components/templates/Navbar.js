@@ -14,7 +14,7 @@ const Navbar = () => {
     { link_name: "About Us", link_path: "/about" },
     { link_name: "Loan", link_path: "/loan" },
     { link_name: "Grant", link_path: "/grant" },
-    { link_name: "Contact", link_path: "/contact" },
+    // { link_name: "Contact", link_path: "/contact" },
   ];
 
   return (

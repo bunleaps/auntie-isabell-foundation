@@ -6,7 +6,7 @@ import { FaArrowDown } from "react-icons/fa6";
 
 function Hero() {
   return (
-    <div className="relative w-full h-dvh md:h-[calc(100vh-200px)] bg-gray-900">
+    <div className="relative w-full h-dvh lg:h-[calc(100vh-200px)] bg-gray-900">
       {/* Hero Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -24,15 +24,15 @@ function Hero() {
         <div className="px-4 md:px-8 max-w-7xl mx-auto">
           <div className="flex justify-center items-center">
             <Image
-              src="/logos/white2.png" // Replace with your logo image path
+              src="/logos/white2.png"
               alt="Logo"
-              width={500} // Adjust as needed
-              height={500} // Adjust as needed
-              className="mr-3 w-1/2 h-1/2 md:w-1/4 lg:w-1/3"
+              width={500}
+              height={500}
+              className="mr-3 w-1/2 h-1/2 md:w-1/4 lg:w-1/3 scale-down" // Add scale-down class
             />
           </div>
 
-          <h1 className="mt-4 text-4xl leading-2 md:text-6xl md:leading-normal font-bold text-white mb-4">
+          <h1 className="mt-4 text-4xl leading-2 lg:text-5xl md:leading-normal font-bold text-white mb-4">
             Empowering Dreams, Fostering Equality
           </h1>
           <p className="text-lg md:text-2xl text-white">

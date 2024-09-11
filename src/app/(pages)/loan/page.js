@@ -148,7 +148,7 @@ export default function Loan() {
     <div>
       <Hero
         title="Loan"
-        paragraph="The Auntie Isabell Foundation offers loans to support underrepresented individuals in Paso Robles, San Luis Obispo County. These loans can assist with various business ventures, from starting a new enterprise to expanding an existing one. We provide flexible terms and personalized guidance, including support for business planning and growth, to help ensure your success."
+        paragraph="Auntie Isabell Foundation offers low-interest loans (2.5-5%) to support underrepresented individuals in San Luis Obispo County, starting in Paso Robles. These loans are designed to help with business expenses. Award: Low-interest loans range from $2,000 to $15,000."
         backgroundImage="/bg/city01.png"
       />
       <Criteria />

@@ -29,12 +29,17 @@ export default function About() {
         <section className="mb-12 mt-8">
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-lg text-gray-700">
-            At The Auntie Isabell Foundation, we are dedicated to empowering
-            underrepresented individuals in San Luis Obispo County, starting in
-            Paso Robles. By offering financial assistance through loans and
-            grants, we aim to break down barriers and create opportunities for
-            personal and professional success. We believe in fostering a
-            supportive community where everyone has the chance to thrive.
+            At the Auntie Isabell Foundation, our goal is to build a supportive
+            and inclusive community where everyone feels valued and respected.
+            We offer financial help through loans and grants to underrepresented
+            people in San Luis Obispo County, California.
+          </p>
+          <p className="text-lg text-gray-700 mt-4">
+            Our programs focus on removing financial barriers and creating
+            opportunities for success. We provide targeted support to help
+            individuals overcome challenges and reach their goals. We believe
+            everyone deserves a chance to succeed and are committed to helping
+            our community thrive.
           </p>
         </section>
 

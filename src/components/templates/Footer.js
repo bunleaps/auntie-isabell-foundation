@@ -6,9 +6,9 @@ const Footer = () => {
   const navLinks = [
     { link_name: "Home", link_path: "/" },
     { link_name: "About Us", link_path: "/about" },
-    { link_name: "Programs", link_path: "/services" },
-    { link_name: "How to Qualify", link_path: "/qualify" },
-    { link_name: "Contact", link_path: "/contact" },
+    { link_name: "Loan", link_path: "/loan" },
+    { link_name: "Grant", link_path: "/grant" },
+    // { link_name: "Contact", link_path: "/contact" },
   ];
 
   const additionalLinks = [
@@ -73,7 +73,7 @@ const Footer = () => {
                 href="mailto:contact@example.com"
                 className="hover:text-gray-600 transition-colors duration-300"
               >
-                contact@example.com
+                info@auntiesisabellfoundation.org
               </a>
             </p>
           </div>
