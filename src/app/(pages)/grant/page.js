@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import Hero from "@/components/Hero";
 import ProgramInfo from "@/components/ProgramsInfo";
 import { FiExternalLink } from "react-icons/fi";
+import Link from "next/link";
 
 export const metadata = {
   title: "Grant — Auntie Isabelle Foundation",
@@ -67,8 +68,16 @@ function AppProcess() {
   const appprocess_list = [
     {
       title: "1. Age Confirmation and GRIT Survey",
-      paragraph:
-        "Confirm that you are aged 18-30 years or older, and provide verification of age. Complete the 10-question GRIT survey online.",
+      paragraph: (
+        <div>
+          Confirm that you are{" "}
+          <span className="underline text-emerald-500">
+            18 to 30 years of age
+          </span>
+          , and provide verification of age. Complete the 10-question GRIT
+          survey online.
+        </div>
+      ),
     },
     {
       title: "2. Essay/Art/Video Submission",
@@ -88,7 +97,7 @@ function AppProcess() {
     {
       title: "5. Application Status & Award",
       paragraph: (
-        <p>
+        <div>
           You will be notified of your application status. If awarded, a payment
           schedule will be established along with a quarterly check-in schedule.
           Please note that if mandatory quarterly check-ins are not met, the
@@ -100,16 +109,18 @@ function AppProcess() {
             to <span className="font-semibold">$500</span> and can be given
             either as a one-time award or as monthly payments for one year.
           </p>
-        </p>
+        </div>
       ),
     },
     {
       title: "Apply for a Grant?",
       paragraph: (
-        <Button>
-          <FiExternalLink />
-          Application Form
-        </Button>
+        <Link href="https://forms.gle/nEbfUyZ2YBwA2pak6" passHref>
+          <Button>
+            <FiExternalLink />
+            Application Form
+          </Button>
+        </Link>
       ),
     },
   ];
@@ -128,7 +139,7 @@ function AppProcess() {
             <div key={index} className="grid-cols-1 md:grid-cols-3">
               <div className="p-4 rounded">
                 <h2 className="text-2xl font-semibold">{item.title}</h2>
-                <p className="pt-2">{item.paragraph}</p>
+                <div className="pt-2">{item.paragraph}</div>
               </div>
             </div>
           ))}
@@ -143,7 +154,7 @@ export default function Loan() {
     <div>
       <Hero
         title="Grant"
-        paragraph="The Auntie Isabell Foundation is designed to support underrepresented persons within San Luis Obispo County. The Auntie Isabell Foundation believes that all you need is a way to take the next step with support. The Auntie Isabell Foundation Grant enables the recipient to take the chance to move forward."
+        paragraph="The Auntie Isabell Foundation is designed to support underrepresented persons within San Luis Obispo County. The Auntie Isabell Foundation believes that all you need is a way to take the next step with support."
         backgroundImage="/bg/city01.png"
       />
       <Criteria />

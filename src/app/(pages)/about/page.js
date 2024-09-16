@@ -11,7 +11,7 @@ export default function About() {
     <div>
       <Hero
         title="About Us"
-        paragraph="Empowering underrepresented individuals in San Luis Obispo County through financial support and community initiatives, The Auntie Isabell Foundation is dedicated to creating opportunities for all to thrive."
+        paragraph="The Auntie Isabell Foundation empowers underrepresented individuals in San Luis Obispo County with financial support, fostering opportunities for all to thrive."
         backgroundImage="/bg/city01.png"
       />
 
@@ -38,8 +38,7 @@ export default function About() {
             Our programs focus on removing financial barriers and creating
             opportunities for success. We provide targeted support to help
             individuals overcome challenges and reach their goals. We believe
-            everyone deserves a chance to succeed and are committed to helping
-            our community thrive.
+            everyone deserves a chance to succeed.
           </p>
         </section>
 
@@ -63,15 +62,15 @@ export default function About() {
           <ul className="list-disc list-inside text-lg text-gray-700">
             <li>
               <strong>Respect:</strong> Valuing the dignity and unique
-              perspectives of every individual.
+              perspectives of every individual
             </li>
             <li>
               <strong>Empowerment:</strong> Providing the support for
-              individuals to overcome challenges.
+              individuals to overcome challenges
             </li>
             <li>
               <strong>Community:</strong> Building a collective well-being where
-              everyone can thrive.
+              everyone can succeed
             </li>
           </ul>
         </section>

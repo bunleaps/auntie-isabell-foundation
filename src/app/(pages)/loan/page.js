@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import Hero from "@/components/Hero";
 import ProgramInfo from "@/components/ProgramsInfo";
 import { FiExternalLink } from "react-icons/fi";
+import Link from "next/link";
 
 export const metadata = {
   title: "Loan — Auntie Isabelle Foundation",
@@ -63,8 +64,19 @@ function AppProcess() {
   const appprocess_list = [
     {
       title: "1. Initial Inquiry",
-      paragraph:
-        "Begin by filling out our preliminary inquiry form to provide us with basic information about your situation and needs. Gather and submit required documents, and a detailed description of the purpose for the loan.",
+      paragraph: (
+        <div>
+          Begin by filling out our preliminary inquiry form to provide us with
+          basic information about your business needs. Gather and submit the
+          required{" "}
+          <Link href="https://docs.google.com/document/d/1ytgQwbB55-WraIZ3c_icHFTSDjNQMBPOAdxTQruQJnk/edit?usp=sharing">
+            <span className="underline text-emerald-500">
+              basic business plan
+            </span>
+          </Link>
+          , and a purpose for the loan.
+        </div>
+      ),
     },
     {
       title: "2. Review and Interview",
@@ -94,7 +106,7 @@ function AppProcess() {
     {
       title: "7. Loan Award or Next Steps",
       paragraph: (
-        <p>
+        <div>
           Based on the review, you will either be awarded the loan or receive
           advisement on how to improve your application and reapply. You may
           also be referred to KIVA for additional funding options.
@@ -105,16 +117,18 @@ function AppProcess() {
             <span className="font-semibold">$2,000</span> to{" "}
             <span className="font-semibold">$15,000</span>.
           </p>
-        </p>
+        </div>
       ),
     },
     {
       title: "Apply for a Loan?",
       paragraph: (
-        <Button>
-          <FiExternalLink />
-          Application Form
-        </Button>
+        <Link href="https://forms.gle/GCUmUrWUbdHpwGvP9" passHref>
+          <Button>
+            <FiExternalLink />
+            Application Form
+          </Button>
+        </Link>
       ),
     },
   ];
@@ -133,7 +147,7 @@ function AppProcess() {
             <div key={index} className="grid-cols-1 md:grid-cols-3">
               <div className="p-4 rounded">
                 <h2 className="text-2xl font-semibold">{item.title}</h2>
-                <p className="pt-2">{item.paragraph}</p>
+                <div className="pt-2">{item.paragraph}</div>
               </div>
             </div>
           ))}
@@ -148,7 +162,7 @@ export default function Loan() {
     <div>
       <Hero
         title="Loan"
-        paragraph="Auntie Isabell Foundation offers low-interest loans (2.5-5%) to support underrepresented individuals in San Luis Obispo County, starting in Paso Robles. These loans are designed to help with business expenses. Award: Low-interest loans range from $2,000 to $15,000."
+        paragraph="Auntie Isabell Foundation offers low-interest loans (2.5-5%) to support underrepresented individuals in San Luis Obispo County, starting in Paso Robles. These loans are designed to help with business expenses. Awards range from $2,000 to $15,000 dollars."
         backgroundImage="/bg/city01.png"
       />
       <Criteria />
