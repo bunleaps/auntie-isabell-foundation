@@ -69,7 +69,7 @@ function AppProcess() {
           Begin by filling out our preliminary inquiry form to provide us with
           basic information about your business needs. Gather and submit the
           required{" "}
-          <Link href="https://docs.google.com/document/d/1ytgQwbB55-WraIZ3c_icHFTSDjNQMBPOAdxTQruQJnk/edit?usp=sharing">
+          <Link href="/pdf/Basic Business Plan - Loan Application.pdf">
             <span className="underline text-emerald-500">
               basic business plan
             </span>

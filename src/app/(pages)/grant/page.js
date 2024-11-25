@@ -115,7 +115,7 @@ function AppProcess() {
     {
       title: "Apply for a Grant?",
       paragraph: (
-        <Link href="https://forms.gle/nEbfUyZ2YBwA2pak6" passHref>
+        <Link href="https://forms.gle/1HEUu5ZzksAaJE2q9" passHref>
           <Button>
             <FiExternalLink />
             Application Form
