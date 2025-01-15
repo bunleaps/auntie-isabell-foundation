@@ -13,7 +13,7 @@ const Footer = () => {
 
   const additionalLinks = [
     { link_name: "References", link_path: "/references" },
-    { link_name: "Sitemap", link_path: "/sitemap" },
+    // { link_name: "Sitemap", link_path: "/sitemap" },
     { link_name: "Privacy Policy", link_path: "/privacy-policy" },
     { link_name: "Terms of Service", link_path: "/terms-of-service" },
   ];
@@ -70,10 +70,10 @@ const Footer = () => {
             <h3 className="font-semibold mb-2">Contact Us</h3>
             <p className="text-black">
               <a
-                href="mailto:contact@example.com"
+                href="mailto:info@auntieisabellfoundation.org"
                 className="hover:text-gray-600 transition-colors duration-300"
               >
-                info@auntiesisabellfoundation.org
+                info@auntieisabellfoundation.org
               </a>
             </p>
           </div>
