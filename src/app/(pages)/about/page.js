@@ -34,12 +34,6 @@ export default function About() {
             We offer financial help through loans and grants to underrepresented
             people in San Luis Obispo County, California.
           </p>
-          <p className="text-lg text-gray-700 mt-4">
-            Our programs focus on removing financial barriers and creating
-            opportunities for success. We provide targeted support to help
-            individuals overcome challenges and reach their goals. We believe
-            everyone deserves a chance to succeed.
-          </p>
         </section>
 
         <section className="mb-12">
