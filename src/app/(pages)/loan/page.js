@@ -21,7 +21,7 @@ function Criteria() {
     },
     {
       title: "Commitment",
-      info: "As part of our commitment to your success, we connect you to a free 5-hour Small Business Mentorship through SLO SBDC. Widely recognized as one of the best resources for local entrepreneurs, this course is designed to give you the essential tools and guidance needed for your business to thrive. After completing the mentorship, check-ins will be scheduled to ensure ongoing support for your business journey.",
+      info: "As part of our commitment to your success, we provide a personalized 5-hour Small Business Mentorship through SLO SBDC, tailored to your unique goals and challenges. This one-on-one guidance connects you with experienced business advisors who will help you develop essential skills and strategies for growth. Beyond the mentorship, we’ll schedule check-ins to offer continued support, ensuring you have the resources and guidance needed to navigate your business journey with confidence.",
     },
   ];
 
@@ -74,7 +74,7 @@ function AppProcess() {
               basic business plan
             </span>
           </Link>{" "}
-          (example of data to gather for basic business plan), and a detailed
+          (example of data to gather for the application form), and a detailed
           purpose for the loan.
         </div>
       ),
@@ -90,11 +90,10 @@ function AppProcess() {
         <div>
           Applicants are required to complete a 5-hour Small Business Mentorship
           through{" "}
-          <Link href="https://cie.calpoly.edu/launch/sbdc-for-innovation/">
+          <Link href="https://www.score.org/sanluisobispo">
             <span className="underline text-emerald-500">SLO SBDC</span>
           </Link>
-          . This highly recommended course offers valuable insights and guidance
-          to help ensure your business is set up for success.
+          . This tailored mentorship provides valuable insights and expert guidance to help you build a strong foundation for your business’s success.
         </div>
       ),
     },

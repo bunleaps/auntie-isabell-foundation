@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center pt-4">
-        &copy; {new Date().getFullYear()} Auntie Isabelle Foundation
+        &copy; {new Date().getFullYear()} Auntie Isabell Foundation
       </p>
     </footer>
   );

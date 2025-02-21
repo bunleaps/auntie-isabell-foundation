@@ -35,10 +35,10 @@ function Hero() {
           <h1 className="mt-4 text-4xl leading-2 lg:text-5xl md:leading-normal font-bold text-white mb-4">
             Empowering Dreams, Fostering Equality
           </h1>
-          <p className="text-lg md:text-2xl text-white">
+          {/* <p className="text-lg md:text-2xl text-white">
             Supporting underrepresented individuals in San Luis Obispo County
             through loans and grants
-          </p>
+          </p> */}
 
           <div className="flex justify-center mt-24">
             <div className="animate-bounce text-white">
@@ -74,7 +74,7 @@ function OurMission() {
                 underrepresented individuals in San Luis Obispo County.
               </p>
             </div>
-            <div className="flex-1">
+            {/* <div className="flex-1">
               <p className="text-lg text-black">
                 Our programs are designed to address financial barriers and
                 create pathways to success. By providing targeted support, we
@@ -83,7 +83,7 @@ function OurMission() {
                 deserves the opportunity to succeed, and we are dedicated to
                 helping our community thrive.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
