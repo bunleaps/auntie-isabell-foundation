@@ -71,11 +71,9 @@ function AppProcess() {
       paragraph: (
         <div>
           Confirm that you are{" "}
-          <span className="underline">
-            18 to 30 years of age
-          </span>
-          , and provide verification of age. Complete the 10-question GRIT
-          survey online.
+          <span className="underline">18 to 30 years of age</span>, and provide
+          verification of age. Complete the 10-question GRIT survey found on the
+          application form.
         </div>
       ),
     },
@@ -106,8 +104,10 @@ function AppProcess() {
           <p className="mt-2">
             <span className="text-emerald-500 font-semibold">Award: </span>{" "}
             Grant amounts range from <span className="font-semibold">$150</span>{" "}
-            to <span className="font-semibold">$500</span> as a one-time award or given as a monthly stipend totaling from <span className="font-semibold">$1800</span>{" "}
-            up to <span className="font-semibold">$6000</span> for one year.
+            to <span className="font-semibold">$500</span> as a one-time award
+            or given as a monthly stipend totaling from{" "}
+            <span className="font-semibold">$1800</span> up to{" "}
+            <span className="font-semibold">$6000</span> for one year.
           </p>
         </div>
       ),

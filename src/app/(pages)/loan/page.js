@@ -90,10 +90,12 @@ function AppProcess() {
         <div>
           Applicants are required to complete a 5-hour Small Business Mentorship
           through{" "}
-          <Link href="https://www.score.org/sanluisobispo">
+          <Link href="https://sbdc.calpoly.edu/">
             <span className="underline text-emerald-500">SLO SBDC</span>
           </Link>
-          . This tailored mentorship provides valuable insights and expert guidance to help you build a strong foundation for your business’s success.
+          . This tailored mentorship provides valuable insights and expert
+          guidance to help you build a strong foundation for your business’s
+          success.
         </div>
       ),
     },
