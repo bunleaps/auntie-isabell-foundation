@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../components/templates/Navbar";
 import Footer from "../components/templates/Footer";
 import GoogleAnalytics from "../components/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/react";
 
 const work_sans = Work_Sans({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
