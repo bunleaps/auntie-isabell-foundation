@@ -21,7 +21,7 @@ function Criteria() {
     },
     {
       title: "Commitment",
-      info: "As part of our commitment to your success, we provide a personalized 5-hour Small Business Mentorship through SLO SBDC, tailored to your unique goals and challenges. This one-on-one guidance connects you with experienced business advisors who will help you develop essential skills and strategies for growth. Beyond the mentorship, we’ll schedule check-ins to offer continued support, ensuring you have the resources and guidance needed to navigate your business journey with confidence.",
+      info: "As part of our commitment to your success, we require that you participate in  a personalized 5-hour Small Business Mentorship through SLO SBDC. This one-on-one guidance connects you with experienced business advisors who will help you develop essential skills and strategies for growth. Beyond the mentorship, we’ll schedule check-ins to offer continued support, ensuring you have the resources and guidance needed to navigate your business journey with confidence.",
     },
   ];
 
@@ -82,7 +82,7 @@ function AppProcess() {
     {
       title: "2. Review and Interview",
       paragraph:
-        "Our team will review your application and may reach out for additional information or clarification. In some cases, applicants may be invited to a brief interview to discuss their application in more detail.",
+        "Our team will review your application and may reach out for additional information or clarification.  All the results are reviewed monthly and applicants are typically notified within 60 days of application submission. In some cases, applicants may be invited to a brief interview to discuss their application in more detail.",
     },
     {
       title: "3. Complete Small Business Mentorship",
@@ -102,7 +102,7 @@ function AppProcess() {
     {
       title: "4. Submission of Revised Business Plan and Documents",
       paragraph:
-        "After completing the mentorship, submit a revised business plan, business license, and any other required documents for final review.",
+        "After completing the mentorship, submit a revised business plan, business license, and any other required documents for final review. SBDC does not decide whether any applicant receives a loan, it is the Foundation's sole determination.",
     },
     {
       title: "5. Follow-Up Interview",

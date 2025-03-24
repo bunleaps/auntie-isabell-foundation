@@ -85,7 +85,7 @@ function AppProcess() {
     {
       title: "3. Submission Review",
       paragraph:
-        "Submit your original essay, art representation, or video online. Provide the link to your submission via the designated form.",
+        "Submit your original essay, art representation, or video online. Provide the link to your submission via the designated form.  All the results are reviewed monthly and applicants are typically notified within 60 days of application submission.",
     },
     {
       title: "4. Interview",
