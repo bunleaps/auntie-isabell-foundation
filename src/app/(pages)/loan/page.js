@@ -134,7 +134,7 @@ function AppProcess() {
     {
       title: "Apply for a Loan?",
       paragraph: (
-        <Link href="https://forms.gle/GCUmUrWUbdHpwGvP9" passHref>
+        <Link href="https://forms.gle/TuYbgHYHubGWPncT8" passHref>
           <Button>
             <FiExternalLink />
             Application Form
