@@ -80,7 +80,7 @@ function AppProcess() {
     {
       title: "2. Essay/Art/Video Submission",
       paragraph:
-        "Using the GRIT survey questions, select one that was impactful and expand on it. Create an essay, art representation, or video that explains this question in depth. Relate it to the need for a one-time payment or monthly grant and how it will support your personal journey.",
+        "Using the GRIT survey statements, select one that was impactful and expand on it. Create an essay, art representation, or video that explains this question in depth. Relate it to the need for a one-time payment or monthly grant and how it will support your personal journey.",
     },
     {
       title: "3. Submission Review",
